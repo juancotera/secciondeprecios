@@ -1,4 +1,6 @@
 @import 'switch.css';
+@import 'pricing_card.css';
+@import 'button.css';
 
 :root {
   --bg: #242629;
@@ -13,6 +15,7 @@
   --h2: 700 2rem/normal Inter;
   --body1-regular: 400 1.125rem/1.75rem Inter;
   --body1-bold: 700 1.125rem/normal Inter;
+  --dm-sans: 'DM Sans', sans-serif;
 }
 
 * {
@@ -25,26 +28,24 @@ body {
   background: var(--bg);
 }
 
-.container {
-  display: flex;
-}
-
 /*WRAPPER*/
 .wrapper {
-  max-width: 25em;
+  max-width: 25.9em;
   margin:  auto;
+  /* border: 1px solid blue; */
 }
 
 /*DESCRICIÓN*/
 .section__title-pricing {
-  margin: 1.5em;
   /* border: 1px solid green; */
 }
 
 .container__title-pricing {
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 1.5em;
   gap: 2.5em;
 }
 

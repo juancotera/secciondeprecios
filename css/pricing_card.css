@@ -1,0 +1,74 @@
+.container__pricing {
+  padding: 1.5em;
+}
+
+.pricing__card {
+  background: var(--card__background);
+  padding-inline: 24px;
+  padding-block: 24px;
+  border-radius: 24px;
+  border: 1px solid var(--white);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.container p {
+  color: var(--grey);
+  font: var(--body1-regular);
+}
+
+.logo__title h3 {
+  color: var(--white);
+  font: var(--h2);
+}
+
+/*PRICING*/
+.pricing span:first-of-type {
+  font: var(--h2);
+  color: var(--white);
+}
+
+.pricing span {
+  color: var(--grey);
+  font: var(--body1-bold);
+}
+
+.points {
+  margin-block-end: 2.5em;
+}
+
+.points p {
+  color: var(--white);
+  margin-block-end: 1em;
+}
+
+.points ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+/*ICON LIST*/
+.icon__list__item {
+  list-style: none;
+  color: var(--white);
+  font: var(--body1-regular);
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.check__circle {
+  background: var(--purple-dark);
+  padding-block: 8.8px;
+  padding-inline: 7.12px;
+  border-radius: 50%;
+}
+
+.opa-02 {
+  opacity: 0.2;
+}
